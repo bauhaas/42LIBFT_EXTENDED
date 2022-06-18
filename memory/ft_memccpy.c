@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 14:39:00 by bahaas            #+#    #+#             */
-/*   Updated: 2020/09/15 14:39:14 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:38:00 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,10 @@
 
 void		*ft_memccpy(void *dest, const void *src, int c, size_t n)
 {
-	size_t				i;
-	unsigned char		*d;
-	unsigned const char	*s;
+	size_t				i = 0;
+	unsigned char		*d = (unsigned char *)dest;
+	unsigned const char	*s = (unsigned const char *)src;
 
-	i = 0;
-	d = (unsigned char *)dest;
-	s = (unsigned const char *)src;
 	if (dest == src)
 		return (dest);
 	while (i < n)

@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/**
+ * @brief print a string to stderr and then exit with specific return code
+ *
+ * @param error string to print to stderr
+ * @param exit_value exit return code
+ */
 void ft_printerr_exit(char *error, int exit_value)
 {
     fprintf(stderr, "%s\n", error);

@@ -6,12 +6,17 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 09:23:54 by bahaas            #+#    #+#             */
-/*   Updated: 2020/09/23 09:44:45 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:07:01 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief write an int as char
+ *
+ * @param n int to write
+ */
 void		ft_putnbr(int n)
 {
 	ft_putnbr_fd(n, 1);

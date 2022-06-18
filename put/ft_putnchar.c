@@ -3,24 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnchar.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bahaas <bahaas@42.fr>                      +#+  +:+       +#+        */
+/*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/06 14:20:19 by bahaas            #+#    #+#             */
-/*   Updated: 2020/10/06 14:38:54 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:12:17 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_putnchar(const char c, const int n)
+/**
+ * @brief write a char n times
+ *
+ * @param c char to write
+ * @param n times you will write it
+ */
+void		ft_putnchar(const char c, const int n)
 {
-	int	i;
-
-	i = 0;
-	while (i < n)
-	{
+	for(int i = 0; i < n; i++)
 		ft_putchar(c);
-		i++;
-	}
-	return (i);
 }

@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/18 11:18:39 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 02:38:23 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:19:14 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,12 @@ static int	ft_toobig(int sign, int i, const char *str)
 	return (1);
 }
 
+/**
+ * @brief convert a string portion to it's int value
+ *
+ * @param str to convert
+ * @return int converted value
+ */
 int			ft_atoi(const char *str)
 {
 	long int	result;

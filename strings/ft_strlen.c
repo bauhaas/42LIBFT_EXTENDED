@@ -6,12 +6,18 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 14:45:06 by bahaas            #+#    #+#             */
-/*   Updated: 2020/11/18 17:03:06 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:06:56 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief return the size of a string
+ *
+ * @param str
+ * @return size_t
+ */
 size_t			ft_strlen(const char *str)
 {
 	int			i;

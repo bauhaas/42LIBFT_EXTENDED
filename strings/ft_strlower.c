@@ -6,12 +6,12 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/24 10:51:06 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 02:40:45 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 16:43:24 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
+
 char		*ft_strlower(char *str)
 {
     char *lower = ft_strdup(str);

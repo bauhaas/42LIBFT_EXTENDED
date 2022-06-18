@@ -6,16 +6,19 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/18 11:41:55 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 02:39:01 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:36:51 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief check if a character is a letter
+ *
+ * @param ch
+ * @return int
+ */
 int		ft_isalpha(int ch)
 {
-	if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
-		return (1);
-	else
-		return (0);
+	return ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ? true : false;
 }
