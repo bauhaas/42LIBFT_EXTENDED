@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 14:40:34 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/20 00:43:16 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 00:50:33 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,7 +99,7 @@ void ft_strdel(char **as);
 void ft_strclr(char *s);
 
 /** misc **/
-bool hasOptionEnabled(int opt);
+bool ft_hasOptionEnabled(int opt);
 int ft_toupper(int ch);
 int ft_tolower(int ch);
 
@@ -141,14 +141,14 @@ void	ft_memdel(void **ap);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 /** boolean **/
-int		ft_isempty(char *str);
-int		ft_isnbr(char *str);
-int		ft_isalpha(int ch);
-int		ft_isdigit(int ch);
-int		ft_isalnum(int ch);
-int		ft_isascii(int ch);
-int		ft_isprint(int ch);
-int		ft_isspace(int ch);
+bool	ft_isempty(char *str);
+bool	ft_isnbr(char *str);
+bool	ft_isalpha(int ch);
+bool	ft_isdigit(int ch);
+bool	ft_isalnum(int ch);
+bool	ft_isascii(int ch);
+bool	ft_isprint(int ch);
+bool	ft_isspace(int ch);
 
 /** lists **/
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));

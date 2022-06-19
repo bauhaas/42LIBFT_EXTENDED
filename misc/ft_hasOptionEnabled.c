@@ -1,24 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isspace.c                                       :+:      :+:    :+:   */
+/*   ft_hasOptionEnabled.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/18 12:01:15 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/20 00:51:21 by bahaas           ###   ########.fr       */
+/*   Created: 2022/06/20 00:38:26 by bahaas            #+#    #+#             */
+/*   Updated: 2022/06/20 00:50:07 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief check if a character is a space ascii character
+ * @brief
  *
- * @param ch
- * @return bool
+ * @param opt
+ * @return true
+ * @return false
  */
-bool		ft_isspace(int ch)
+bool ft_hasOptionEnabled(int opt)
 {
-	return (ch == '\t' || ch == '\n' || ch == '\v' || ch == '\f' || ch == '\r' || ch == ' ') ? true : false;
+    if(options & opt)
+        return true;
+    return false;
 }

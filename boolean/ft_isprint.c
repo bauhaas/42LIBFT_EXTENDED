@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/18 12:16:33 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 17:34:00 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 00:51:15 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
  * @brief check if a character is printable (32-127 ascii)
  *
  * @param ch
- * @return int
+ * @return bool
  */
-int		ft_isprint(int ch)
+bool		ft_isprint(int ch)
 {
 	return (ch >= ' ' && ch <= '~');
 }

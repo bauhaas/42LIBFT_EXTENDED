@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/18 11:47:14 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 17:35:33 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 00:51:11 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
  * @brief check if a character is a digit
  *
  * @param ch
- * @return int
+ * @return bool
  */
-int		ft_isdigit(int ch)
+bool		ft_isdigit(int ch)
 {
 	return (ch >= '0' && ch <= '9') ? true : false;
 }

@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/13 14:24:30 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 17:30:30 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 00:50:53 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
  * @brief check if a string has only numeric values or "-" and "+"
  *
  * @param str string to check
- * @return int
+ * @return bool
  */
-int		ft_isnbr(char *str)
+bool		ft_isnbr(char *str)
 {
 	int	i = 0;
 
