@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 14:40:34 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/18 17:30:37 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 00:43:16 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,8 @@ typedef struct s_list
 	struct s_list *next;
 } t_list;
 
+int options;
+
 /** strings **/
 char **ft_nsplit(char const *s, char c, int n);
 char **ft_split(char const *s, char c);
@@ -97,6 +99,7 @@ void ft_strdel(char **as);
 void ft_strclr(char *s);
 
 /** misc **/
+bool hasOptionEnabled(int opt);
 int ft_toupper(int ch);
 int ft_tolower(int ch);
 
