@@ -6,7 +6,7 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 14:40:34 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/20 00:50:33 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/24 16:55:42 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,8 +123,8 @@ int		ft_atoi(const char *str);
 size_t	ft_intlen(long long nb);
 
 /** error **/
-void	ft_printerr_exit(char *error, int exit_value);
-void	ft_printerr(char *error);
+void	printErrorAndExit(char *error, int exit_value);
+void	printError(char *error);
 
 /** memory **/
 void	*ft_memccpy(void *dest, const void *src, int c, size_t n);
