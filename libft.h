@@ -1,19 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/15 14:40:34 by bahaas            #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2022/06/24 16:55:42 by bahaas           ###   ########.fr       */
-=======
-/*   Updated: 2022/06/20 15:57:02 by bahaas           ###   ########.fr       */
->>>>>>> 2bec20d43809543b658a071c9976191324bd1f3f
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef LIBFT_H
 #define LIBFT_H
 
@@ -104,6 +88,7 @@ void ft_strclr(char *s);
 
 /** misc **/
 bool ft_hasOptionEnabled(int opt);
+bool hasOptionEnabled(int opt);
 int ft_toupper(int ch);
 int ft_tolower(int ch);
 
